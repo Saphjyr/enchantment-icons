@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.saphjyr.eicons.mixin",
+  "package": "com.saphjyr.eicons.mixins",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
-    
+    "ItemRendererMixin",
+    "ItemRendererInvoker"
   ],
   "injectors": {
     "defaultRequire": 1

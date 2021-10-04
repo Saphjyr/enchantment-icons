@@ -10,25 +10,8 @@ public class EiconsMod implements ModInitializer
     
     @Environment(EnvType.CLIENT)
     @Override
-    public void onInitialize() 
-    {
-        /*
-        ArmorVenchants.RegisterLeatherHelmet();
-        ArmorVenchants.RegisterLeatherBoot();
-        ArmorVenchants.RegisterLeatherArmor();
-        ArmorVenchants.RegisterHelmet();
-        ArmorVenchants.RegisterBoot();
-        ArmorVenchants.RegisterArmor();
-        
-        HandheldVenchants.RegisterSwords();
-        HandheldVenchants.RegisterTools();
+    public void onInitialize() {
        
-        ProjectilethrowerVenchants.RegistrerBow();
-        ProjectilethrowerVenchants.RegisterCrossbow();
-
-        FishingRodVenchants.RegisterFishingRod();
-        
-        TridentVenchants.RegisterTrident(); */
     }
     
 }
